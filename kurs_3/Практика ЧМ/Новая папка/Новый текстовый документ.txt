@@ -1,0 +1,3 @@
+this->zedGraphControl1->GraphPane->Title->Text = "График зависимости высоты жидкости в конусе от времени";
+			this->zedGraphControl1->GraphPane->XAxis->Title->Text = "Время";
+			this->zedGraphControl1->GraphPane->YAxis->Title->Text = "Высота жидкости";

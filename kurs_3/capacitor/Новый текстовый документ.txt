@@ -1,0 +1,48 @@
+this->zedGraphControl1->Location = System::Drawing::Point(604, 12);
+			this->zedGraphControl1->Name = L"zedGraphControl1";
+			this->zedGraphControl1->GraphPane->Title->Text = "Изменение силы тока с течением времени";
+			this->zedGraphControl1->GraphPane->XAxis->Title->Text = "Время";
+			this->zedGraphControl1->GraphPane->YAxis->Title->Text = "Сила тока";
+			this->zedGraphControl1->ScrollGrace = 0;
+			this->zedGraphControl1->ScrollMaxX = 0;
+			this->zedGraphControl1->ScrollMaxY = 0;
+			this->zedGraphControl1->ScrollMaxY2 = 0;
+			this->zedGraphControl1->ScrollMinX = 0;
+			this->zedGraphControl1->ScrollMinY = 0;
+			this->zedGraphControl1->ScrollMinY2 = 0;
+			this->zedGraphControl1->Size = System::Drawing::Size(501, 327);
+			this->zedGraphControl1->TabIndex = 0;
+			// 
+			// zedGraphControl2
+			// 
+			this->zedGraphControl2->Location = System::Drawing::Point(1124, 12);
+			this->zedGraphControl2->Name = L"zedGraphControl2";
+			this->zedGraphControl2->GraphPane->Title->Text = "Изменение напряжения с течением времени";
+			this->zedGraphControl2->GraphPane->XAxis->Title->Text = "Время";
+			this->zedGraphControl2->GraphPane->YAxis->Title->Text = "Напряжение";
+			this->zedGraphControl2->ScrollGrace = 0;
+			this->zedGraphControl2->ScrollMaxX = 0;
+			this->zedGraphControl2->ScrollMaxY = 0;
+			this->zedGraphControl2->ScrollMaxY2 = 0;
+			this->zedGraphControl2->ScrollMinX = 0;
+			this->zedGraphControl2->ScrollMinY = 0;
+			this->zedGraphControl2->ScrollMinY2 = 0;
+			this->zedGraphControl2->Size = System::Drawing::Size(501, 327);
+			this->zedGraphControl2->TabIndex = 0;
+			// 
+			// zedGraphControl3
+			// 
+			this->zedGraphControl3->Location = System::Drawing::Point(1124, 440);
+			this->zedGraphControl3->Name = L"zedGraphControl3";
+			this->zedGraphControl3->GraphPane->Title->Text = "Изменение напряжения при зарядке с течением времени";
+			this->zedGraphControl3->GraphPane->XAxis->Title->Text = "Время";
+			this->zedGraphControl3->GraphPane->YAxis->Title->Text = "Напряжение";
+			this->zedGraphControl3->ScrollGrace = 0;
+			this->zedGraphControl3->ScrollMaxX = 0;
+			this->zedGraphControl3->ScrollMaxY = 0;
+			this->zedGraphControl3->ScrollMaxY2 = 0;
+			this->zedGraphControl3->ScrollMinX = 0;
+			this->zedGraphControl3->ScrollMinY = 0;
+			this->zedGraphControl3->ScrollMinY2 = 0;
+			this->zedGraphControl3->Size = System::Drawing::Size(501, 335);
+			this->zedGraphControl3->TabIndex = 14;

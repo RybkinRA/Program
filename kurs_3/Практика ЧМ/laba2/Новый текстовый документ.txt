@@ -1,0 +1,52 @@
+this->zedGraphControl1->BackColor = System::Drawing::SystemColors::ActiveCaptionText;
+			this->zedGraphControl1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"zedGraphControl1.BackgroundImage")));
+			this->zedGraphControl1->Location = System::Drawing::Point(696, 517);
+			this->zedGraphControl1->Margin = System::Windows::Forms::Padding(4);
+			this->zedGraphControl1->Name = L"zedGraphControl1";
+			this->zedGraphControl1->GraphPane->Title->Text = "Зависимость v1(x)";
+			this->zedGraphControl1->GraphPane->XAxis->Title->Text = "v1";
+			this->zedGraphControl1->GraphPane->YAxis->Title->Text = "x";
+			this->zedGraphControl1->ScrollGrace = 0;
+			this->zedGraphControl1->ScrollMaxX = 0;
+			this->zedGraphControl1->ScrollMaxY = 0;
+			this->zedGraphControl1->ScrollMaxY2 = 0;
+			this->zedGraphControl1->ScrollMinX = 0;
+			this->zedGraphControl1->ScrollMinY = 0;
+			this->zedGraphControl1->ScrollMinY2 = 0;
+			this->zedGraphControl1->Size = System::Drawing::Size(498, 394);
+			this->zedGraphControl1->TabIndex = 0;
+			this->zedGraphControl1->Load += gcnew System::EventHandler(this, &MyForm::zedGraphControl1_Load);
+			// 
+			// zedGraphControl2
+			// 
+			this->zedGraphControl2->Location = System::Drawing::Point(1212, 517);
+			this->zedGraphControl2->Name = L"zedGraphControl2";
+			this->zedGraphControl3->GraphPane->Title->Text = "Зависимость v2(x)";
+			this->zedGraphControl2->GraphPane->XAxis->Title->Text = "v2";
+			this->zedGraphControl2->GraphPane->YAxis->Title->Text = "x";
+			this->zedGraphControl2->ScrollGrace = 0;
+			this->zedGraphControl2->ScrollMaxX = 0;
+			this->zedGraphControl2->ScrollMaxY = 0;
+			this->zedGraphControl2->ScrollMaxY2 = 0;
+			this->zedGraphControl2->ScrollMinX = 0;
+			this->zedGraphControl2->ScrollMinY = 0;
+			this->zedGraphControl2->ScrollMinY2 = 0;
+			this->zedGraphControl2->Size = System::Drawing::Size(523, 394);
+			this->zedGraphControl2->TabIndex = 0;
+			// 
+			// zedGraphControl3
+			// 
+			this->zedGraphControl3->Location = System::Drawing::Point(696, 149);
+			this->zedGraphControl3->Name = L"zedGraphControl3";
+			this->zedGraphControl3->GraphPane->Title->Text = "Фазовый портрет";
+			this->zedGraphControl3->GraphPane->XAxis->Title->Text = "v1";
+			this->zedGraphControl3->GraphPane->YAxis->Title->Text = "v2";
+			this->zedGraphControl3->ScrollGrace = 0;
+			this->zedGraphControl3->ScrollMaxX = 0;
+			this->zedGraphControl3->ScrollMaxY = 0;
+			this->zedGraphControl3->ScrollMaxY2 = 0;
+			this->zedGraphControl3->ScrollMinX = 0;
+			this->zedGraphControl3->ScrollMinY = 0;
+			this->zedGraphControl3->ScrollMinY2 = 0;
+			this->zedGraphControl3->Size = System::Drawing::Size(498, 328);
+			this->zedGraphControl3->TabIndex = 0;
