@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Деление матрицы на две</h1>
+    <form method = "post" action = "">
+        {% csrf_token %}
+<!--        <p> {{form.p11}} {{form.p12}} {{form.p13}}</p>-->
+<!--        <p> {{form.p21}} {{form.p22}} {{form.p23}}</p>-->
+<!--        <p> {{form.p31}} {{form.p32}} {{form.p33}}</p>-->
+<!--        <p> Выберите по какой строке разделить: {{form.sep}} -->
+        <button type="submit">Разделить</button></p>
+        {{form}}
+    </form>
+
+    {% for r in L %}
+        <div> Главная матрица: {{ r.mainMatrix }} первая матрица: {{ r.matrix1 }}
+              вторая матрица: {{ r.matrix2 }} Разделение по: {{ r.separator }} </div>
+    {% endfor %}
+
+</body>
+</html>

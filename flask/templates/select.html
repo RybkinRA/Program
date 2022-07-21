@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Деление матрицы на две: задание матрицы и выбор столбца</title>
+</head>
+<body>
+<form action="/mov" method ="post">
+            <p>
+                <b>Заполните матрицу:</b><br><br>
+                {% for i in rows %}
+                    {% for j in column %}
+                       <input type="number" name="{{i}}_{{j}}" step="1" value="1">
+                    {% endfor %}
+                    <br>
+                {% endfor %}<br>
+                Выберите строку, по которой разделить матрицы:
+                <input type="number" name="select" min="1" max="{{size-1}}" step="1" value="1"><br>
+                <button type="submit">Разделить матрицу</button>
+            </p>
+        </form>
+</body>
+</html>
